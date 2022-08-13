@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://haystack-neteasemusic-api.vercel.app/:match*"
+    }
+  ]
+}
